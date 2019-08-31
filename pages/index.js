@@ -3,7 +3,9 @@ import React from 'react'
 export default function Home() {
   return (
     <div>
-      next app deployed by eb
+      <h1>
+        next app deployed by elastic beanstalk
+      </h1>
     </div>
   )
 }
