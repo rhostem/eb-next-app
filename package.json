@@ -7,7 +7,7 @@
     "start": "next start -p 8081",
     "build": "npm run clean && next build",
     "clean": "rm -rf .next",
-    "deploy-dev": "npm run build && eb deploy eb-next-app-dev"
+    "deploy-dev": "npm install && npm run build && eb deploy eb-next-app-dev"
   },
   "dependencies": {
     "next": "^9.0.5",
