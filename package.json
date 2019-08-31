@@ -4,8 +4,10 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
-    "start": "npm run build && next start"
+    "start": "next start -p 8081",
+    "build": "npm run clean && next build",
+    "clean": "rm -rf .next",
+    "deploy": "npm run build && eb deploy"
   },
   "dependencies": {
     "next": "^9.0.5",
