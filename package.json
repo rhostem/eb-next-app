@@ -6,5 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "npm run build && next start"
+  },
+  "dependencies": {
+    "next": "^9.0.5",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
   }
 }
