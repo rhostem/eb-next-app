@@ -6,6 +6,11 @@
 ### ElasticBeanstalk ###
 .elasticbeanstalk/
 
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+
 ### macOS ###
 # General
 .DS_Store
