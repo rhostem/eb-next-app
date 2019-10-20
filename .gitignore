@@ -4,11 +4,9 @@
 # Edit at https://www.gitignore.io/?templates=macos,visualstudiocode,elasticbeanstalk,node
 
 ### ElasticBeanstalk ###
-.elasticbeanstalk/
-
 # Elastic Beanstalk Files
 .elasticbeanstalk/*
-!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/config.yml
 !.elasticbeanstalk/*.global.yml
 
 ### macOS ###
