@@ -10,7 +10,7 @@
     "deploy-dev": "npm install && npm run build && eb deploy eb-next-app-dev"
   },
   "dependencies": {
-    "next": "^9.0.5",
+    "next": "^9.3.2",
     "react": "^16.9.0",
     "react-dom": "^16.9.0"
   }
